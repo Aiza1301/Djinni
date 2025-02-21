@@ -1,0 +1,32 @@
+.header{
+
+    &_inside{
+        padding: 12px 0;
+      background: #f8f8f8;
+    }
+
+    &_wrapper{
+       display:  flex;
+       align-items: center;
+       justify-content: space-between;
+    }
+    &_navbar{
+        display: flex; 
+        gap: 30px;
+    }
+    &-item{
+        font-family: "Roboto", serif;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 112%;
+        color: $text-color;
+        &:hover{
+            color: $black-color;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+    &_logo img{
+        padding: 0 2px;
+    }
+
+}

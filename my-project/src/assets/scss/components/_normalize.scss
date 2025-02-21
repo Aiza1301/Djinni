@@ -1,0 +1,43 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body,#root{
+    height: 100%;
+    width: 100%;
+}
+
+#root{
+    font-family: inherit;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+ul,ol,li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
