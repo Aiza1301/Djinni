@@ -1,0 +1,50 @@
+.page{
+    &__filter-group{
+        margin-bottom: 1.5rem;
+    }
+    &-md{
+         font-family: "Roboto" , sans-serif;
+         font-size: 20px;
+         font-weight: 600;
+         line-height: 1.5;
+         color: $black-color; 
+         margin-bottom: 3px;
+    }
+    &-md2{
+        font-family: "Roboto" , sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.2;
+        color: $text-color;
+        margin: 11.5px 0;
+    }
+    
+}
+.list-unstyled{
+    margin-left: 0;
+}
+.list-unstyled li {
+    margin-bottom: 0.25rem;
+    font-family: "Roboto" , sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+
+}
+a{
+    color: $button-color;
+}
+.list-unstyled a:hover{
+   color: blue;
+   opacity: 0.8;
+   transition: all 0.3 ease-out;
+}
+.em{
+    display: flex;
+    color: $button-color;
+    margin-bottom: 0.25rem;
+    font-family: "Roboto" , sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}

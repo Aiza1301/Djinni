@@ -1,0 +1,56 @@
+.h5-title{
+    font-family: "Roboto" , sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 140%;
+    padding: 14px 0;
+    opacity: 0.8;
+}
+.formto {
+    border: 1px solid #4D4C4C; 
+    border-radius: 6px;
+    opacity: 0.9;
+    padding: 6px 4px; 
+    width: 80px;
+    margin: 0 2px;
+    font-size: 14px; 
+    text-align: center; 
+    outline: none; 
+    transition: all 0.3s ease-in-out; 
+    border-color: #ebebeb;
+}
+
+.formto:focus {
+    border-color: #007bff; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    opacity: 1;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.submit{
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    border-color: #333;
+    color: #333;
+    border-radius: 0.3rem !important;
+    border-color: #ebebeb;
+    padding: 4px 4px;
+    width: 32px;
+}
+.submit svg{
+    padding-top: 2.5px;
+}
+
+.submit:hover{
+    border-color: #007bff; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    opacity: 1;
+
+
+}
+
